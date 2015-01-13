@@ -1,0 +1,319 @@
+<div class="container">
+
+  <div class="row">
+    <div class="pull-right">
+      <button type="button" class="btn btn-lg btn-success">Save</button>
+      <button type="button" class="btn btn-lg btn-primary">Edit</button>
+      <button type="button" class="btn  btn-lg btn-info">New</button>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div>
+      <h4>Enter Question Text</h4>
+      <p class="lead">
+        <textarea class="form-control" rows="3"></textarea>
+      </p>
+      <p>
+        Optional: Enter a hint here
+        <textarea class="form-control" rows="2"></textarea>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h4>Select Question Type</h4>
+
+    <!-- Nav tabs -->
+    <!-- <div role="tabpanel">
+      <ul class="nav nav-tabs tabs-left" role="tablist">
+        <li role="presentation" class="active"><a href="#code" aria-controls="home" role="tab" data-toggle="tab">Code</a></li>
+        <li role="presentation"><a href="#matching" aria-controls="profile" role="tab" data-toggle="tab">Matching</a></li>
+        <li role="presentation"><a href="#multiple" aria-controls="messages" role="tab" data-toggle="tab">Multiple Choice</a></li>
+        <li role="presentation"><a href="#challenge" aria-controls="settings" role="tab" data-toggle="tab">Code Challenge</a></li>
+      </ul>-->
+
+      <!-- Tab panes -->
+      <!-- <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="code">Code</div>
+        <div role="tabpanel" class="tab-pane" id="matching">Matching</div>
+        <div role="tabpanel" class="tab-pane" id="multiple">Multiple Choice</div>
+        <div role="tabpanel" class="tab-pane" id="challenge">Code Challenge</div>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="row">
+    <div class="well well-lg">
+      <h4>Code Answer</h4>
+      <p class="lead">
+        Enter the correct code into the code editor below.
+      </p>
+      <p>
+        Create an embedded Code Editor to submit code with all the correct syntax in place.
+        <br>
+        http://ace.c9.io/#nav=embedding
+        <br>
+        https://github.com/ajaxorg/ace-builds/
+        <br>
+        (http://blog.teamtreehouse.com/building-a-syntax-highlighted-input-box-with-javascript)
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="well well-lg" style="height: 25em">
+    <button type="button" class="btn btn-default pull-right" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+      See an Example
+      <!-- <img src="/images/matching-example.png"></img> -->
+    </button>
+      <h4>Matching</h4>
+      <p class="lead">
+        Enter the list options below with the correct pairing marked.
+      </p>
+      <div class="col-md-4">
+        <p class="lead">
+          List 1
+          <div class="input-group">
+            <span class="input-group-addon">A</span>
+            <input type="text" class="form-control" placeholder="List Item A">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">B</span>
+            <input type="text" class="form-control" placeholder="List Item B">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">C</span>
+            <input type="text" class="form-control" placeholder="List Item C">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">D</span>
+            <input type="text" class="form-control" placeholder="List Item D">
+          </div>
+        </p>
+      </div>
+      <div class="col-md-2">
+        <p class="lead">
+          Answers
+          <div class="input-group">
+            <span class="input-group-addon">A</span>
+            <input type="text" class="form-control" placeholder="Enter # Pair">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">B</span>
+            <input type="text" class="form-control" placeholder="Enter # Pair">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">C</span>
+            <input type="text" class="form-control" placeholder="Enter # Pair">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">D</span>
+            <input type="text" class="form-control" placeholder="Enter # Pair">
+          </div>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <p class="lead">
+          List 2
+          <div class="input-group">
+            <span class="input-group-addon">1</span>
+            <input type="text" class="form-control" placeholder="List Item 1">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">2</span>
+            <input type="text" class="form-control" placeholder="List Item 2">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">3</span>
+            <input type="text" class="form-control" placeholder="List Item 3">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">4</span>
+            <input type="text" class="form-control" placeholder="List Item 4">
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="well well-lg" style="height: 25em">
+    <button type="button" class="btn btn-default pull-right" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+      See an Example
+      <!-- <img src="/images/ordering-example.png"></img> -->
+    </button>
+      <h4>Ordering</h4>
+      <p class="lead">
+        Enter the list options below with the correct ordering marked.
+      </p>
+      <div class="col-md-4">
+        <p class="lead">
+          List Items
+          <div class="input-group">
+            <span class="input-group-addon">A</span>
+            <input type="text" class="form-control" placeholder="List Item A">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">B</span>
+            <input type="text" class="form-control" placeholder="List Item B">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">C</span>
+            <input type="text" class="form-control" placeholder="List Item C">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">D</span>
+            <input type="text" class="form-control" placeholder="List Item D">
+          </div>
+        </p>
+      </div>
+      <div class="col-md-2">
+        <p class="lead">
+          Answers
+          <div class="input-group">
+            <span class="input-group-addon">A</span>
+            <input type="text" class="form-control" placeholder="Enter # order">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">B</span>
+            <input type="text" class="form-control" placeholder="Enter # order">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">C</span>
+            <input type="text" class="form-control" placeholder="Enter # order">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">D</span>
+            <input type="text" class="form-control" placeholder="Enter # order">
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="well well-lg">
+      <h4>Multiple Choice</h4>
+      <p class="lead">
+        Enter the options below and indicate the correct answer.
+      </p>
+      <div class="input-group col-md-8">
+        <span style="width: 10em">
+          Check 1 correct answer
+        </span>
+      </div><!-- /instructions -->
+
+      <div class="input-group col-md-8">
+        <span class="input-group-addon" style="width: 10em">
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        </span>
+        <input type="text" class="form-control" placeholder="Enter answer option">
+      </div><!-- /input-group -->
+      <div class="input-group col-md-8">
+        <span class="input-group-addon" style="width: 10em">
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        </span>
+        <input type="text" class="form-control" placeholder="Enter answer option">
+      </div><!-- /input-group -->
+      <div class="input-group col-md-8">
+        <span class="input-group-addon" style="width: 10em">
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        </span>
+        <input type="text" class="form-control" placeholder="Enter answer option">
+      </div><!-- /input-group -->
+      <div class="input-group col-md-8">
+        <span class="input-group-addon" style="width: 10em">
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        </span>
+        <input type="text" class="form-control" placeholder="Enter answer option">
+      </div><!-- /input-group -->
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+    <p class="lead">Learners demonstrate the ability to:
+    <br><span><small><em>Example: "Correctly implement control structures."</em></small></span>
+    <textarea class="form-control" rows="3"></textarea></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="lead">Specific skill:
+      <br><span><small><em>Example: "Use an if statement"</em></small></span>
+      <textarea class="form-control" rows="3"></textarea></p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="lead">
+        Knowledge Domain:
+      </p>
+      <select class="form-control">
+        <option>Select One</option>
+        <option>Ruby</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>CSS</option>
+        <option>HTML</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <p class="lead">
+        Skill Type:
+      </p>
+      <select class="form-control">
+        <option>Select One</option>
+        <option>Syntax & Use</option>
+        <option>Synthesis</option>
+        <option>Concept Comprehension</option>
+        <option>Analysis</option>
+        <option>Problem Solving</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <p class="lead">
+        Skill Level:
+        <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+          Skill Level Explanation
+        </button>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Level One: Maps to Blooms Taxonomy for "Remembering" & "Understanding"
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Level Two: Maps to Blooms Taxonomy for "Applying"
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Level Three: Maps to Blooms Taxonomy for "Creating", "Evaluating", & "Analyzing"
+          </label>
+        </div>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+  <br>
+    <div class="pull-right">
+      <button type="button" class="btn btn-lg btn-success">Save</button>
+      <button type="button" class="btn btn-lg btn-primary">Edit</button>
+      <button type="button" class="btn  btn-lg btn-info">New</button>
+    </div>
+  </div>
+</div> <!-- /container -->
+<hr>
+  <script src="/testing-app/js/jquery.js"></script>
+  <script src="/testing-app/js/bootstrap.js"></script>

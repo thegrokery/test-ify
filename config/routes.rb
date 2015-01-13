@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'static/index'
+
+  get 'static/about'
+
+  get 'static/admin'
+
+  get 'static/test'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +61,14 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+end
+
+helpers do
+  def active?(matcher)
+    if (current_page.path =~ /#{matcher}/)
+      ' class="active"'
+    else
+      ''
+    end
+  end
 end
